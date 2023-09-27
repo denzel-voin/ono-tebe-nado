@@ -1,1 +1,41 @@
-/* место для вашего кода */
+/* header */
+
+.header {
+  display: flex;
+  padding: 92px 50px;
+  justify-content: space-between;
+}
+
+.header__nav-lists {
+  display: flex;
+}
+
+.header__nav-list {
+  font-size: 18px;
+  margin-right: 32px;
+  list-style: circle;
+}
+
+.header__logo {
+  width: 148px;
+}
+
+.nav-link {
+  border-bottom: 1px solid black;
+  text-decoration: none;
+}
+
+.header__first-link {
+  list-style: none;
+  border-bottom: none;
+}
+
+.address {
+  width: 240px;
+}
+
+.address__link {
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.30px;
+}
