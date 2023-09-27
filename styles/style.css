@@ -2,7 +2,8 @@
 
 .header {
   display: flex;
-  padding: 92px 50px;
+  padding: 100px 46px 80px 53px;
+  align-items: center;
 }
 
 .header__nav-lists {
@@ -17,8 +18,13 @@
 
 .header__logo {
   display: block;
-  width: 148px;
+  width: 139px;
   margin: 0 auto;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
 }
 
 .nav-link {
@@ -72,8 +78,8 @@
   font-size: 100px;
   font-weight: 700;
   text-transform: uppercase;
-  line-height: 115px;
-  letter-spacing: 60px;
+  line-height: 124px;
+  letter-spacing: 30px;
 }
 
 .cover__title-center {
@@ -86,9 +92,9 @@
   text-align: end;
 }
 
-.space-70px {
+.space-30px {
   display: inline-block;
-  width: 70px;
+  width: 30px;
 }
 
 .letter-spacing-extended {
@@ -99,7 +105,8 @@
   display: flex;
   justify-content: flex-end;
   gap: 78px;
-  margin-top: 147px;
+  margin-top: 120px;
+  align-items: center;
 }
 
 .cover__description-text {
@@ -108,7 +115,7 @@
   font-weight: 400;
   text-transform: uppercase;
   line-height: 28px;
-  word-spacing: 12px;
+  word-spacing: 18.5px;
 }
 
 .bet-button {
@@ -130,11 +137,18 @@
   max-width: 1440px;
 }
 
+.lots {
+  margin-top: 90px;
+}
+
 .section-heading {
   color: black;
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.margin-left-40px {
   margin-left: 40px;
 }
 
@@ -211,6 +225,8 @@
 .about {
   display: grid;
   grid-template-columns: 430px 1fr;
+  justify-items: center;
+  gap: 26px;
 }
 
 .about__logo {
@@ -230,12 +246,17 @@
 
 .about__text {
   color: black;
-  font-size: 20px;
+  font-size: 17px;
   font-weight: 400;
 }
 
 .margin-bottom-100px {
   margin-bottom: 100px;
+  margin-top: 100px;
+}
+
+.margin-bottom-26px {
+  margin-bottom: 26px;
 }
 
 /* footer */
